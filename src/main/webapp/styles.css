@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f9f8f4;
+    color: #1c1c1c;
+    font-family: "Georgia", "Times New Roman", serif;
+    line-height: 1.6;
+    padding: 2rem 1rem;
+}
+
+.newspaper-container {
+    max-width: 820px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: 1px solid #d8d5cc;
+    padding: 2.5rem;
+}
+
+header {
+    text-align: center;
+    border-bottom: 2px solid #1c1c1c;
+    padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+header h1 {
+    font-size: 2.6rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.meta-bar {
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, sans-serif;
+    font-size: 0.85rem;
+    color: #555555;
+    border-top: 1px solid #1c1c1c;
+    border-bottom: 1px solid #d8d5cc;
+    padding: 0.4rem 0;
+    margin-top: 0.8rem;
+}
+
+.jsp-banner {
+    background-color: #f3f1eb;
+    border-left: 3px solid #1c1c1c;
+    padding: 0.85rem 1.2rem;
+    margin-bottom: 2rem;
+    font-style: italic;
+}
+
+.main-article {
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #e2dfd7;
+}
+
+.main-article h2 {
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.author {
+    font-family: Arial, sans-serif;
+    font-size: 0.8rem;
+    color: #666666;
+    text-transform: uppercase;
+    margin-bottom: 0.8rem;
+}
+
+.columns {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.5rem;
+}
+
+.card {
+    padding-top: 0.5rem;
+}
+
+.card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.4rem;
+}
+
+footer {
+    margin-top: 2.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid #1c1c1c;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 0.8rem;
+    color: #666666;
+}
